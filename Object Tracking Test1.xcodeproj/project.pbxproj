@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043C216A2C7D70A7002836FB /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 043C21692C7D70A7002836FB /* RealityKitContent */; };
+		043C21762C7D70A8002836FB /* Assets 2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043C21752C7D70A8002836FB /* Assets 2.xcassets */; };
+		043C21842C7D70A8002836FB /* Object_Tracking_Test1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043C21832C7D70A8002836FB /* Object_Tracking_Test1Tests.swift */; };
+		043C21C12C7D84DB002836FB /* PortalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043C21BE2C7D84DB002836FB /* PortalView.swift */; };
+		043C21C22C7D84DB002836FB /* ObjectTrackingRealityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043C21BD2C7D84DB002836FB /* ObjectTrackingRealityView.swift */; };
+		043C21C32C7D84DB002836FB /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043C21AF2C7D84DB002836FB /* AppState.swift */; };
+		043C21C42C7D84DB002836FB /* ListEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043C21BC2C7D84DB002836FB /* ListEntryView.swift */; };
+		043C21C52C7D84DB002836FB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043C21BA2C7D84DB002836FB /* HomeView.swift */; };
+		043C21C62C7D84DB002836FB /* ReferenceObjectLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043C21B12C7D84DB002836FB /* ReferenceObjectLoader.swift */; };
+		043C21C72C7D84DB002836FB /* ObjectTrackingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043C21B62C7D84DB002836FB /* ObjectTrackingApp.swift */; };
+		043C21C82C7D84DB002836FB /* ObjectAnchorVisualization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043C21B02C7D84DB002836FB /* ObjectAnchorVisualization.swift */; };
+		043C21CA2C7D84DB002836FB /* Entity+ObjectTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043C21B32C7D84DB002836FB /* Entity+ObjectTracking.swift */; };
+		043C21CB2C7D84DB002836FB /* InfoLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043C21BB2C7D84DB002836FB /* InfoLabel.swift */; };
+		043C21CD2C7D84DB002836FB /* SolarSystem.skybox in Resources */ = {isa = PBXBuildFile; fileRef = 043C21B82C7D84DB002836FB /* SolarSystem.skybox */; };
+		043C21CE2C7D84DB002836FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043C21B72C7D84DB002836FB /* Assets.xcassets */; };
+		043C21D82C7D8531002836FB /* PS5_Controller.referenceobject in Sources */ = {isa = PBXBuildFile; fileRef = 043C21D42C7D8531002836FB /* PS5_Controller.referenceobject */; };
+		043C21D92C7D8531002836FB /* Apple_Magic_Keyboard.referenceobject in Sources */ = {isa = PBXBuildFile; fileRef = 043C21CF2C7D8531002836FB /* Apple_Magic_Keyboard.referenceobject */; };
+		043C21DA2C7D8531002836FB /* MyObjectTracker.mlproj in Resources */ = {isa = PBXBuildFile; fileRef = 043C21D22C7D8531002836FB /* MyObjectTracker.mlproj */; };
+		043C21DB2C7D8531002836FB /* Moon.usda in Resources */ = {isa = PBXBuildFile; fileRef = 043C21D12C7D8531002836FB /* Moon.usda */; };
+		043C21DC2C7D8531002836FB /* PS5Photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 043C21D52C7D8531002836FB /* PS5Photo.jpg */; };
+		043C21DD2C7D8531002836FB /* PS5.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 043C21D32C7D8531002836FB /* PS5.usdz */; };
+		043C21DF2C7D8531002836FB /* Sun.usda in Resources */ = {isa = PBXBuildFile; fileRef = 043C21D62C7D8531002836FB /* Sun.usda */; };
+		043C21E32C7D8886002836FB /* Earth.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 043C21E22C7D8886002836FB /* Earth.usdz */; };
+		043C21E52C7D8936002836FB /* SkySphere.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 043C21E42C7D8936002836FB /* SkySphere.usdz */; };
+		043C21EF2C7D911E002836FB /* 360.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 043C21EE2C7D911E002836FB /* 360.usdz */; };
+		043C224B2C80152A002836FB /* VirtualHandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043C224A2C801524002836FB /* VirtualHandView.swift */; };
+		043C22522C801A22002836FB /* GestureKit in Frameworks */ = {isa = PBXBuildFile; productRef = 043C22512C801A22002836FB /* GestureKit */; };
+		04A541352C80255A00887BCE /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A541342C80255700887BCE /* UIView.swift */; };
+		04A541372C803D7E00887BCE /* BlendShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A541362C803D7800887BCE /* BlendShapeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		043C21802C7D70A8002836FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043C215C2C7D70A7002836FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 043C21632C7D70A7002836FB;
+			remoteInfo = "Object Tracking Test1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		043C21642C7D70A7002836FB /* Object Tracking Test1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Object Tracking Test1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		043C21682C7D70A7002836FB /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		043C21752C7D70A8002836FB /* Assets 2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets 2.xcassets"; sourceTree = "<group>"; };
+		043C217A2C7D70A8002836FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043C217F2C7D70A8002836FB /* Object Tracking Test1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Object Tracking Test1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		043C21832C7D70A8002836FB /* Object_Tracking_Test1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Object_Tracking_Test1Tests.swift; sourceTree = "<group>"; };
+		043C21AF2C7D84DB002836FB /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		043C21B02C7D84DB002836FB /* ObjectAnchorVisualization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectAnchorVisualization.swift; sourceTree = "<group>"; };
+		043C21B12C7D84DB002836FB /* ReferenceObjectLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceObjectLoader.swift; sourceTree = "<group>"; };
+		043C21B32C7D84DB002836FB /* Entity+ObjectTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entity+ObjectTracking.swift"; sourceTree = "<group>"; };
+		043C21B62C7D84DB002836FB /* ObjectTrackingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectTrackingApp.swift; sourceTree = "<group>"; };
+		043C21B72C7D84DB002836FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		043C21B82C7D84DB002836FB /* SolarSystem.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = SolarSystem.skybox; sourceTree = "<group>"; };
+		043C21BA2C7D84DB002836FB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		043C21BB2C7D84DB002836FB /* InfoLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoLabel.swift; sourceTree = "<group>"; };
+		043C21BC2C7D84DB002836FB /* ListEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListEntryView.swift; sourceTree = "<group>"; };
+		043C21BD2C7D84DB002836FB /* ObjectTrackingRealityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectTrackingRealityView.swift; sourceTree = "<group>"; };
+		043C21BE2C7D84DB002836FB /* PortalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortalView.swift; sourceTree = "<group>"; };
+		043C21CF2C7D8531002836FB /* Apple_Magic_Keyboard.referenceobject */ = {isa = PBXFileReference; lastKnownFileType = file.referenceobject; path = Apple_Magic_Keyboard.referenceobject; sourceTree = "<group>"; };
+		043C21D12C7D8531002836FB /* Moon.usda */ = {isa = PBXFileReference; lastKnownFileType = text; path = Moon.usda; sourceTree = "<group>"; };
+		043C21D22C7D8531002836FB /* MyObjectTracker.mlproj */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = MyObjectTracker.mlproj; sourceTree = "<group>"; };
+		043C21D32C7D8531002836FB /* PS5.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = PS5.usdz; sourceTree = "<group>"; };
+		043C21D42C7D8531002836FB /* PS5_Controller.referenceobject */ = {isa = PBXFileReference; lastKnownFileType = file.referenceobject; path = PS5_Controller.referenceobject; sourceTree = "<group>"; };
+		043C21D52C7D8531002836FB /* PS5Photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PS5Photo.jpg; sourceTree = "<group>"; };
+		043C21D62C7D8531002836FB /* Sun.usda */ = {isa = PBXFileReference; lastKnownFileType = text; path = Sun.usda; sourceTree = "<group>"; };
+		043C21E22C7D8886002836FB /* Earth.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = Earth.usdz; sourceTree = "<group>"; };
+		043C21E42C7D8936002836FB /* SkySphere.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = SkySphere.usdz; sourceTree = "<group>"; };
+		043C21EE2C7D911E002836FB /* 360.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = 360.usdz; sourceTree = "<group>"; };
+		043C224A2C801524002836FB /* VirtualHandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualHandView.swift; sourceTree = "<group>"; };
+		04A541342C80255700887BCE /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		04A541362C803D7800887BCE /* BlendShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendShapeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		043C21612C7D70A7002836FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043C216A2C7D70A7002836FB /* RealityKitContent in Frameworks */,
+				043C22522C801A22002836FB /* GestureKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043C217C2C7D70A8002836FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043C215B2C7D70A7002836FB = {
+			isa = PBXGroup;
+			children = (
+				043C21662C7D70A7002836FB /* Object Tracking Test1 */,
+				043C21672C7D70A7002836FB /* Packages */,
+				043C21822C7D70A8002836FB /* Object Tracking Test1Tests */,
+				043C21652C7D70A7002836FB /* Products */,
+				043C21D72C7D8531002836FB /* Reference Objects */,
+			);
+			sourceTree = "<group>";
+		};
+		043C21652C7D70A7002836FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				043C21642C7D70A7002836FB /* Object Tracking Test1.app */,
+				043C217F2C7D70A8002836FB /* Object Tracking Test1Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		043C21662C7D70A7002836FB /* Object Tracking Test1 */ = {
+			isa = PBXGroup;
+			children = (
+				043C21E12C7D85BA002836FB /* Preview Content */,
+				043C21B22C7D84DB002836FB /* App */,
+				043C21B42C7D84DB002836FB /* Extensions */,
+				043C21B92C7D84DB002836FB /* Resources */,
+				043C21C02C7D84DB002836FB /* Views */,
+				043C21B62C7D84DB002836FB /* ObjectTrackingApp.swift */,
+				043C217A2C7D70A8002836FB /* Info.plist */,
+				043C21752C7D70A8002836FB /* Assets 2.xcassets */,
+			);
+			path = "Object Tracking Test1";
+			sourceTree = "<group>";
+		};
+		043C21672C7D70A7002836FB /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				043C21682C7D70A7002836FB /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		043C21822C7D70A8002836FB /* Object Tracking Test1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				043C21832C7D70A8002836FB /* Object_Tracking_Test1Tests.swift */,
+			);
+			path = "Object Tracking Test1Tests";
+			sourceTree = "<group>";
+		};
+		043C21B22C7D84DB002836FB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				043C21AF2C7D84DB002836FB /* AppState.swift */,
+				043C21B02C7D84DB002836FB /* ObjectAnchorVisualization.swift */,
+				043C21B12C7D84DB002836FB /* ReferenceObjectLoader.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		043C21B42C7D84DB002836FB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				043C21B32C7D84DB002836FB /* Entity+ObjectTracking.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		043C21B92C7D84DB002836FB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				043C21B72C7D84DB002836FB /* Assets.xcassets */,
+				043C21B82C7D84DB002836FB /* SolarSystem.skybox */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		043C21C02C7D84DB002836FB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				043C21BA2C7D84DB002836FB /* HomeView.swift */,
+				043C21BB2C7D84DB002836FB /* InfoLabel.swift */,
+				043C21BC2C7D84DB002836FB /* ListEntryView.swift */,
+				043C21BD2C7D84DB002836FB /* ObjectTrackingRealityView.swift */,
+				04A541342C80255700887BCE /* UIView.swift */,
+				043C21BE2C7D84DB002836FB /* PortalView.swift */,
+				04A541362C803D7800887BCE /* BlendShapeView.swift */,
+				043C224A2C801524002836FB /* VirtualHandView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		043C21D72C7D8531002836FB /* Reference Objects */ = {
+			isa = PBXGroup;
+			children = (
+				043C21E22C7D8886002836FB /* Earth.usdz */,
+				043C21CF2C7D8531002836FB /* Apple_Magic_Keyboard.referenceobject */,
+				043C21D12C7D8531002836FB /* Moon.usda */,
+				043C21D22C7D8531002836FB /* MyObjectTracker.mlproj */,
+				043C21D32C7D8531002836FB /* PS5.usdz */,
+				043C21D42C7D8531002836FB /* PS5_Controller.referenceobject */,
+				043C21D52C7D8531002836FB /* PS5Photo.jpg */,
+				043C21D62C7D8531002836FB /* Sun.usda */,
+				043C21E42C7D8936002836FB /* SkySphere.usdz */,
+				043C21EE2C7D911E002836FB /* 360.usdz */,
+			);
+			path = "Reference Objects";
+			sourceTree = "<group>";
+		};
+		043C21E12C7D85BA002836FB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		043C21632C7D70A7002836FB /* Object Tracking Test1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043C21872C7D70A8002836FB /* Build configuration list for PBXNativeTarget "Object Tracking Test1" */;
+			buildPhases = (
+				043C21602C7D70A7002836FB /* Sources */,
+				043C21612C7D70A7002836FB /* Frameworks */,
+				043C21622C7D70A7002836FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Object Tracking Test1";
+			packageProductDependencies = (
+				043C21692C7D70A7002836FB /* RealityKitContent */,
+				043C22512C801A22002836FB /* GestureKit */,
+			);
+			productName = "Object Tracking Test1";
+			productReference = 043C21642C7D70A7002836FB /* Object Tracking Test1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		043C217E2C7D70A8002836FB /* Object Tracking Test1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043C218A2C7D70A8002836FB /* Build configuration list for PBXNativeTarget "Object Tracking Test1Tests" */;
+			buildPhases = (
+				043C217B2C7D70A8002836FB /* Sources */,
+				043C217C2C7D70A8002836FB /* Frameworks */,
+				043C217D2C7D70A8002836FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				043C21812C7D70A8002836FB /* PBXTargetDependency */,
+			);
+			name = "Object Tracking Test1Tests";
+			productName = "Object Tracking Test1Tests";
+			productReference = 043C217F2C7D70A8002836FB /* Object Tracking Test1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		043C215C2C7D70A7002836FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					043C21632C7D70A7002836FB = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					043C217E2C7D70A8002836FB = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 043C21632C7D70A7002836FB;
+					};
+				};
+			};
+			buildConfigurationList = 043C215F2C7D70A7002836FB /* Build configuration list for PBXProject "Object Tracking Test1" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 043C215B2C7D70A7002836FB;
+			packageReferences = (
+				043C22492C801423002836FB /* XCRemoteSwiftPackageReference "GestureKit" */,
+			);
+			productRefGroup = 043C21652C7D70A7002836FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				043C21632C7D70A7002836FB /* Object Tracking Test1 */,
+				043C217E2C7D70A8002836FB /* Object Tracking Test1Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		043C21622C7D70A7002836FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043C21762C7D70A8002836FB /* Assets 2.xcassets in Resources */,
+				043C21DA2C7D8531002836FB /* MyObjectTracker.mlproj in Resources */,
+				043C21DB2C7D8531002836FB /* Moon.usda in Resources */,
+				043C21DC2C7D8531002836FB /* PS5Photo.jpg in Resources */,
+				043C21E52C7D8936002836FB /* SkySphere.usdz in Resources */,
+				043C21E32C7D8886002836FB /* Earth.usdz in Resources */,
+				043C21DD2C7D8531002836FB /* PS5.usdz in Resources */,
+				043C21EF2C7D911E002836FB /* 360.usdz in Resources */,
+				043C21DF2C7D8531002836FB /* Sun.usda in Resources */,
+				043C21CD2C7D84DB002836FB /* SolarSystem.skybox in Resources */,
+				043C21CE2C7D84DB002836FB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043C217D2C7D70A8002836FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		043C21602C7D70A7002836FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A541372C803D7E00887BCE /* BlendShapeView.swift in Sources */,
+				043C21C12C7D84DB002836FB /* PortalView.swift in Sources */,
+				043C21C22C7D84DB002836FB /* ObjectTrackingRealityView.swift in Sources */,
+				043C21C32C7D84DB002836FB /* AppState.swift in Sources */,
+				043C21D82C7D8531002836FB /* PS5_Controller.referenceobject in Sources */,
+				043C21D92C7D8531002836FB /* Apple_Magic_Keyboard.referenceobject in Sources */,
+				043C21C42C7D84DB002836FB /* ListEntryView.swift in Sources */,
+				043C21C52C7D84DB002836FB /* HomeView.swift in Sources */,
+				043C21C62C7D84DB002836FB /* ReferenceObjectLoader.swift in Sources */,
+				043C21C72C7D84DB002836FB /* ObjectTrackingApp.swift in Sources */,
+				043C21C82C7D84DB002836FB /* ObjectAnchorVisualization.swift in Sources */,
+				04A541352C80255A00887BCE /* UIView.swift in Sources */,
+				043C224B2C80152A002836FB /* VirtualHandView.swift in Sources */,
+				043C21CA2C7D84DB002836FB /* Entity+ObjectTracking.swift in Sources */,
+				043C21CB2C7D84DB002836FB /* InfoLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043C217B2C7D70A8002836FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043C21842C7D70A8002836FB /* Object_Tracking_Test1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		043C21812C7D70A8002836FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 043C21632C7D70A7002836FB /* Object Tracking Test1 */;
+			targetProxy = 043C21802C7D70A8002836FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		043C21852C7D70A8002836FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		043C21862C7D70A8002836FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		043C21882C7D70A8002836FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Object Tracking Test1/Preview Content\"";
+				DEVELOPMENT_TEAM = UN6MB8KFNH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.neonthewei.Object-Tracking-Test1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+			};
+			name = Debug;
+		};
+		043C21892C7D70A8002836FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Object Tracking Test1/Preview Content\"";
+				DEVELOPMENT_TEAM = UN6MB8KFNH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.neonthewei.Object-Tracking-Test1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+			};
+			name = Release;
+		};
+		043C218B2C7D70A8002836FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UN6MB8KFNH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.neonthewei.Object-Tracking-Test1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Object Tracking Test1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Object Tracking Test1";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		043C218C2C7D70A8002836FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UN6MB8KFNH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.neonthewei.Object-Tracking-Test1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Object Tracking Test1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Object Tracking Test1";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		043C215F2C7D70A7002836FB /* Build configuration list for PBXProject "Object Tracking Test1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043C21852C7D70A8002836FB /* Debug */,
+				043C21862C7D70A8002836FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043C21872C7D70A8002836FB /* Build configuration list for PBXNativeTarget "Object Tracking Test1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043C21882C7D70A8002836FB /* Debug */,
+				043C21892C7D70A8002836FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043C218A2C7D70A8002836FB /* Build configuration list for PBXNativeTarget "Object Tracking Test1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043C218B2C7D70A8002836FB /* Debug */,
+				043C218C2C7D70A8002836FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		043C22492C801423002836FB /* XCRemoteSwiftPackageReference "GestureKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nthState/GestureKit";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		043C21692C7D70A7002836FB /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+		043C22512C801A22002836FB /* GestureKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 043C22492C801423002836FB /* XCRemoteSwiftPackageReference "GestureKit" */;
+			productName = GestureKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 043C215C2C7D70A7002836FB /* Project object */;
+}
